@@ -15,8 +15,8 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-6 left-0 right-0 z-50 px-3 md:px-6 ">
-      <div className="max-w-7xl mx-auto relative p-px rounded-2xl bg-linear-to-r from-[#F268FF] from-0% via-[#4E3D73] via-33%  to-[#4EC1FF] to-96%">
+    <nav className="fixed top-9 left-0 right-0 z-50 px-3 md:px-6 ">
+      <div className="max-w-350 mx-auto relative p-px rounded-2xl bg-linear-to-r from-[#F268FF] from-0% via-[#4E3D73] via-33%  to-[#4EC1FF] to-96%">
         <div className="bg-[#0a0516]/90  backdrop-blur-md rounded-2xl  ">
 
           <div className="flex items-center justify-between px-4 py-3">

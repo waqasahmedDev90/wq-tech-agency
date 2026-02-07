@@ -1,26 +1,35 @@
 // src/Components/Hero.jsx
 import Button from "./Common/Button";
+import herorocket from "../assets/Images/rocket.png";
+import bgeffect from "../assets/Images/bg-effect.png";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[#0a0516]">
+    <section className="relative  min-h-[80vh] flex items-center md:pt-9 pt-40 overflow-hidden ">
       {/* Background Glows */}
-      <div className="absolute top-1/4 -left-20 w-80 h-80 bg-purple-600/20 rounded-full blur-[120px]"></div>
+      <div className="absolute -top-100 -left-90 mx-w-md"> <img
+            src={bgeffect} // Apni image ko public folder mein rakhein
+            alt="Bg Effect"
+            className="mx-w-lg"
+          /></div>
       <div className="absolute bottom-1/4 -right-20 w-80 h-80 bg-blue-600/20 rounded-full blur-[120px]"></div>
 
-      <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+      <div className=" w-350 mx-auto  px-2 md:flex  gap-5 items-center relative z-10">
         {/* Left Side: Content */}
-        <div>
-          <h1 className="text-5xl md:text-6xl font-bold text-white leading-tight mb-6 font-heading">
+
+        <div className="md:w-[60%] w-full">
+          <h1 className="text-4xl md:text-[48px] lg:text-[59px] font-bold text-white leading-tight mb-6 font-heading">
             Strategy First, Execution Second, and
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-400 to-blue-400">
+            <span className="pl-1 text-transparent bg-clip-text bg-linear-to-r from-[#FF47F9] from-16% to-[#99DBFF] to-88%">
               Growth
             </span>{" "}
             in Mind.
           </h1>
-          <p className="text-gray-400 text-lg mb-8 max-w-lg">
+          <p className="text-white text-[22px] mb-8 ">
             As a premier responsive website development company, focused on UX,
-            speed, and security. We build to support real business growth.
+            speed, and security. Whether you need small business website
+            development services or enterprise SAP integrations, we build to
+            support real business growth.
           </p>
 
           <div className="flex gap-4">
@@ -29,16 +38,17 @@ const Hero = () => {
           </div>
 
           <p className="mt-8 text-sm text-gray-500 uppercase tracking-widest">
-            Trusted by startups and enterprises for custom website development.
+            Trusted by startups and enterprises for custom website development
+            services done right from day one.{" "}
           </p>
         </div>
 
         {/* Right Side: Image/Illustration */}
-        <div className="flex justify-center">
+        <div className="text-end md:w-[40%] w-full md:block hidden justify-end">
           <img
-            src="/hero-rocket.png" // Apni image ko public folder mein rakhein
+            src={herorocket} // Apni image ko public folder mein rakhein
             alt="Rocket Growth"
-            className="w-full max-w-md drop-shadow-[0_0_30px_rgba(147,51,234,0.3)]"
+            className="w-full "
           />
         </div>
       </div>
