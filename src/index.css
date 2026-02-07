@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-satoshi: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Variable.woff2') format('woff2-variations'),
+  url('./assets/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Link to Google Font (Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+background-color: #14011A;
+}
+
+
