@@ -37,7 +37,7 @@ const Hero = () => {
             <Button text="Book Free Consultation" variant="outline" />
           </div>
 
-          <p className="mt-8 text-sm text-gray-400 uppercase tracking-widest max-w-lg">
+          <p className="mt-8 text-sm text-gray-400  tracking-widest max-w-lg">
             Trusted by startups and enterprises for custom website development
             services done right from day one.{" "}
           </p>
