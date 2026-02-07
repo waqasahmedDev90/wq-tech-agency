@@ -1,5 +1,5 @@
 
-const Logo = () => {
+const WebLogo = () => {
   return (
      <div className="text-white font-heading font-bold text-xl tracking-tighter">
               WQ TECH SOLUTION
@@ -7,4 +7,4 @@ const Logo = () => {
   )
 }
 
-export default Logo
+export default WebLogo

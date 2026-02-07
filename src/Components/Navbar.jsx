@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "./Navbar/Logo.jsx";
+import Logo from "./Navbar/WebLogo.jsx";
 import NavMenu from "./Navbar/NavMenu.jsx";
 import NavButton from "./Navbar/NavButton.jsx";
 

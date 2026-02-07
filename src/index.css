@@ -30,3 +30,9 @@ html ,body {
   scroll-behavior: smooth;
 
 }
+
+body {
+  background-image: url(/src/assets/Images/grid.png);
+  background-attachment: fixed;
+
+}
