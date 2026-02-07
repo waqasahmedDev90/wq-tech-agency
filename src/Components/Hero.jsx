@@ -5,7 +5,7 @@ import bgeffect from "../assets/Images/bg-effect.png";
 
 const Hero = () => {
   return (
-    <section className="relative  min-h-[80vh] flex items-center md:pt-9 pt-40 overflow-hidden ">
+    <section className="relative  min-h-[80vh] flex items-center md:pt-9 pt-40 overflow-hidden px-3 md:px-6">
       {/* Background Glows */}
       <div className="absolute -top-100 -left-90 mx-w-md"> <img
             src={bgeffect} // Apni image ko public folder mein rakhein
@@ -37,7 +37,7 @@ const Hero = () => {
             <Button text="Book Free Consultation" variant="outline" />
           </div>
 
-          <p className="mt-8 text-sm text-gray-500 uppercase tracking-widest">
+          <p className="mt-8 text-sm text-gray-400 uppercase tracking-widest max-w-lg">
             Trusted by startups and enterprises for custom website development
             services done right from day one.{" "}
           </p>
