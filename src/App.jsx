@@ -1,14 +1,14 @@
-import Hero from "./Components/Hero"
-import Navbar from "./Components/Navbar"
+import Navbar from "./Components/Navbar.jsx";
+import WebDevelopment from "./Pages/Services/WebDevelopment.jsx";
 
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <WebDevelopment />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

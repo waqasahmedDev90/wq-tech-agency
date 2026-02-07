@@ -1,11 +1,11 @@
-import herorocket from "../../assets/Images/rocket.png";
+// import herorocket from "../../assets/Images/rocket.png";
 
 
-const HeroRight = () => {
+const HeroRight = ({image}) => {
   return (
     <div className="text-end md:w-[40%] w-full md:block hidden justify-end">
           <img
-            src={herorocket} // Apni image ko public folder mein rakhein
+            src={image} // Apni image ko public folder mein rakhein
             alt="Rocket Growth"
             className="w-full "
           />
