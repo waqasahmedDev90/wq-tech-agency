@@ -13,7 +13,7 @@ const NavMenu = () => {
 
 
   return (
-   <div className="hidden md:flex items-center gap-8 text-[#B5B5C8] font-satoshi text-md font-medium">
+   <div className="hidden md:flex items-center gap-8 text-[#B5B5C8] font-body text-md font-medium">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
