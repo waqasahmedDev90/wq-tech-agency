@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     // 1. Lenis Smooth Scroll Setup
     const lenis = new Lenis({
-      duration: 1.2, // Jitna zyada value, utna smooth/slow scroll
+      duration: 2, // Jitna zyada value, utna smooth/slow scroll
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Smooth rukne ka formula
       smoothWheel: true,
     });

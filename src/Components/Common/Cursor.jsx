@@ -12,14 +12,14 @@ const Cursor = () => {
       gsap.to(cursorRef.current, {
         x: e.clientX,
         y: e.clientY,
-        duration: 0.1, // Boht tez
+        duration: 0.3, // Boht tez
       });
 
       // Bara circle (Thora slow/smooth chalega)
       gsap.to(followerRef.current, {
         x: e.clientX,
         y: e.clientY,
-        duration: 0.8, // Smooth delay
+        duration: 0.9, // Smooth delay
         ease: "power3.out",
       });
     };
