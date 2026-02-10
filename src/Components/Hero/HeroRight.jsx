@@ -29,7 +29,7 @@ const HeroRight = ({ image }) => {
     <div className="text-end md:w-[40%] w-full md:flex hidden justify-end relative">
       
       {/* (Optional) Peeche Glow Effect lagaya hai taake Rocket pop kare */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-purple-600/20 blur-[100px] rounded-full -z-10"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-75 h-75 bg-purple-600/20 blur-[100px] rounded-full -z-10"></div>
 
       <img
         ref={rocketRef} // Animation yahan lagay gi

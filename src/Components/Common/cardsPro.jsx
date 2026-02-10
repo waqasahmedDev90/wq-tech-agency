@@ -51,7 +51,7 @@ const Performance = ({ title, featuresList }) => {
           
           {featuresList.map((f, index) => (
             // w-[400px]: Width fix karni paregi horizontal scroll k liye
-            <div key={index} className="relative w-[85vw] md:w-[400px] group flex-shrink-0">
+            <div key={index} className="relative w-[85vw] md:w-100 group shrink-0">
               
               <div className="absolute inset-0 bg-linear-to-tl from-[#4EC1FF] to-[#F268FF] rounded-[40px] transition-transform duration-300 group-hover:scale-[1.01]"></div>
 
