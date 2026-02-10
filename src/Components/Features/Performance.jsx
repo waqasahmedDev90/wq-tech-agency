@@ -7,23 +7,24 @@ const Performance = ({ title, featuresList }) => {
           {title}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex gap-5 justify-center flex-wrap relative">
           {featuresList.map((f, index) => (
+
             <div
               key={index}
-              className="bg-white/5 border border-white/10 p-10 rounded-[40px] flex flex-col items-center text-center hover:border-purple-500/50 transition-all group backdrop-blur-sm"
+              className="w-100  shadow-[inset_-10px_-9px_23px_rgba(255,255,255,0.25),inset_9px_10px_23px_rgba(255,255,255,0.25)] bg-white/5 border  p-10 pt-10 rounded-[40px] flex flex-col items-center text-center px-15 hover:border-purple-500/50 transition-all group backdrop-blur-md mt-10 z-10"
             >
-              <div className="">
+              <div className="absolute -top-26 ">
                 <img
                   src={f.icon}
                   alt={f.title}
-                  className="w-full "
+                  className="w-50 "
                 />
               </div>
-              <h3 className="text-[#F488FC] text-xl font-bold mb-4 font-heading leading-tight">
+              <h3 className="text-[#F488FC] text-[28px] font-heading mb-4  leading-tight z-40">
                 {f.title}
               </h3>
-              <p className="text-gray-400 text-sm leading-relaxed font-body">
+              <p className="text-[#FFFFFF]/75 text-[18px] leading-relaxed font-body">
                 {f.desc}
               </p>
             </div>
